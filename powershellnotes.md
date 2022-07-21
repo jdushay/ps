@@ -3,7 +3,7 @@
 This is my first attempt at writing some notes in Markdown. I though it would be good to have a place to share the powershell notes and commands I frequently refer back to.<br>
 
 <h3>Add a value to a custom attribute in Active Directory<h3>
-<h4>Replace $extensionAttribute1 with the correct attribute, and syntax with value you want to add
+<h4>Replace $extensionAttribute1 with the correct attribute, and syntax with value you want to add</h4>
 
 ```Set-ADUser <username> -replace @{extensionAttribute1="Syntax"```
 
