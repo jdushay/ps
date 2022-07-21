@@ -16,6 +16,6 @@ This is my first attempt at writing some notes in Markdown. I though it would be
 
 ```| Export-Csv -path c:\scripts\[addfilename]```
 
-<h3> Get a list of all services running, change Running to "stopped", if required. Note the only two applicable statuses are Running, or Stopped.
+<h3> Get a list of all services running, change Running to "stopped", if required. Note the only two applicable statuses are Running, or Stopped. </h3>
 
 ```Get-Service | Where-Object {$_.Status -eq "Running"}```
